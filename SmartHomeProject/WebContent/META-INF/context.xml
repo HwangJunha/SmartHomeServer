@@ -1,0 +1,16 @@
+<Context>
+	<Resource
+		name="jdbc/MySQLDB"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="root"
+		password="tjdgk7518"
+		driverClassName="com.mysql.jdbc.Driver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		url="jdbc:mysql://localhost:3306/CenterDB?serverTimezone=UTC"
+		
+		
+		maxActive="500"
+	/>
+	<!--url="jdbc:mysql://192.168.219.110:3306/SmartHome?serverTimezone=UTC" 라즈베리파이   -->
+</Context>
